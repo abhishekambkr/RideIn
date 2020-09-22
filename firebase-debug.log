@@ -1,0 +1,46 @@
+[debug] [2020-09-22T10:09:19.617Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T10:09:19.620Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\abhi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-09-22T10:09:19.620Z] CLI Version:   8.10.0
+[debug] [2020-09-22T10:09:19.620Z] Platform:      win32
+[debug] [2020-09-22T10:09:19.621Z] Node Version:  v14.5.0
+[debug] [2020-09-22T10:09:19.622Z] Time:          Tue Sep 22 2020 15:39:19 GMT+0530 (India Standard Time)
+[debug] [2020-09-22T10:09:19.622Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T10:09:19.623Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=751026057&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-09-22T10:10:07.234Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gF20eX8z8BPK2161gepBf_5UlV9Gm7cBDNhLTq-prqsY-KjxP5WDW6j1-MzDJod1ezE7RpcynjrpVlgGw5g_5I","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-22T10:10:07.822Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 22 Sep 2020 10:10:07 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] +  Success! Logged in as abhishek.301988@gmail.com 
+[debug] [2020-09-22T10:12:05.018Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T10:12:05.021Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\abhi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-09-22T10:12:05.022Z] CLI Version:   8.10.0
+[debug] [2020-09-22T10:12:05.022Z] Platform:      win32
+[debug] [2020-09-22T10:12:05.022Z] Node Version:  v14.5.0
+[debug] [2020-09-22T10:12:05.024Z] Time:          Tue Sep 22 2020 15:42:05 GMT+0530 (India Standard Time)
+[debug] [2020-09-22T10:12:05.024Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T10:12:05.024Z] 
+[debug] [2020-09-22T10:12:05.033Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-22T10:12:05.034Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\reactnativedemo\Ride\RideIn
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
